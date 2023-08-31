@@ -18,7 +18,7 @@ app.use(morgan('combined'));
 
 //template engine
    app.engine('hbs', handlebars.engine({ extname: '.hbs' }));
-    app.set('view engine', 'hbs');
+   app.set('view engine', 'hbs');
 app.set('views', 'src/resources/views');
 
 route(app);
